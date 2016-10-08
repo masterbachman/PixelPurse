@@ -30,6 +30,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
+	byte test = (byte) 1;
 
 	private static final String TAG = "BlueTest5-MainActivity";
 	private int mMaxChars = 50000;//Default
@@ -96,7 +97,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				try {
-					mBTSocket.getOutputStream().write(1);
+					mBTSocket.getOutputStream().write(test);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -109,7 +110,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				try {
-					mBTSocket.getOutputStream().write(0);
+					mBTSocket.getOutputStream().write("0".getBytes());
 				} catch (IOException e){
 					e.printStackTrace();
 				}

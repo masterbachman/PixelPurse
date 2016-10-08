@@ -61,7 +61,6 @@ void setup() {
       }
       else{leds[i] = CRGB::Red;}
     }
-
   FastLED.show();
   if(flag == 0){
   Serial.println("LED: on");
@@ -73,11 +72,8 @@ void setup() {
   // Now turn the LED off
   
   else if (state == '0') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      leds[i] = CRGB::Black;
-    }
-    
+  leds[0] = CRGB::Black;
+  leds[1] = CRGB::Black;
   FastLED.show();
   if(flag == 0){
   Serial.println("LED: off");
