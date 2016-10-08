@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/layout/activity_helpscreen.xml",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/layout/activity_helpscreen.xml"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/layout/activity_homescreen.xml",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/layout/activity_homescreen.xml"
+    }
+]

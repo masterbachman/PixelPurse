@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo.png",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/back.xml",
+        "source": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/drawable-hdpi/back.xml"
+    }
+]
