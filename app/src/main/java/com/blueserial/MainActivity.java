@@ -11,6 +11,9 @@ import java.io.InputStream;
 import java.util.UUID;
 
 import com.blueserial.R;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -18,6 +21,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -57,6 +61,11 @@ public class MainActivity extends Activity {
 	private BluetoothDevice mDevice;
 
 	private ProgressDialog progressDialog;
+	/**
+	 * ATTENTION: This was auto-generated to implement the App Indexing API.
+	 * See https://g.co/AppIndexing/AndroidStudio for more information.
+	 */
+	private GoogleApiClient client;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +107,8 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				try {
-					mBTSocket.getOutputStream().write(mEditSend.getText().toString().getBytes());
+				//	mBTSocket.getOutputStream().write(mEditSend.getText().toString().getBytes());
+					mBTSocket.getOutputStream().write(1);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -107,21 +117,47 @@ public class MainActivity extends Activity {
 		});
 
 		mBtnClear.setOnClickListener(new OnClickListener() {
-
 			@Override
 			public void onClick(View arg0) {
-				mEditSend.setText("");
+				try {
+					mBTSocket.getOutputStream().write(0);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
 		});
-		
+
 		mBtnClearInput.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View arg0) {
 				mTxtReceive.setText("");
 			}
 		});
 
+		// ATTENTION: This was auto-generated to implement the App Indexing API.
+		// See https://g.co/AppIndexing/AndroidStudio for more information.
+		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+	}
+
+	@Override
+	public void onStart() {
+		super.onStart();
+
+		// ATTENTION: This was auto-generated to implement the App Indexing API.
+		// See https://g.co/AppIndexing/AndroidStudio for more information.
+		client.connect();
+		Action viewAction = Action.newAction(
+				Action.TYPE_VIEW, // TODO: choose an action type.
+				"Main Page", // TODO: Define a title for the content shown.
+				// TODO: If you have web page content that matches this app activity's content,
+				// make sure this auto-generated web page URL is correct.
+				// Otherwise, set the URL to null.
+				Uri.parse("http://host/path"),
+				// TODO: Make sure this auto-generated app URL is correct.
+				Uri.parse("android-app://com.blueserial/http/host/path")
+		);
+		AppIndex.AppIndexApi.start(client, viewAction);
 	}
 
 	private class ReadInput implements Runnable {
@@ -168,19 +204,19 @@ public class MainActivity extends Activity {
 									//Uncomment below for testing
 									//mTxtReceive.append("\n");
 									//mTxtReceive.append("Chars: " + strInput.length() + " Lines: " + mTxtReceive.getLineCount() + "\n");
-									
-									int txtLength = mTxtReceive.getEditableText().length();  
-									if(txtLength > mMaxChars){
+
+									int txtLength = mTxtReceive.getEditableText().length();
+									if (txtLength > mMaxChars) {
 										mTxtReceive.getEditableText().delete(0, txtLength - mMaxChars);
 									}
 
 									if (chkScroll.isChecked()) { // Scroll only if this is checked
 										scrollView.post(new Runnable() { // Snippet from http://stackoverflow.com/a/4612082/1287554
-													@Override
-													public void run() {
-														scrollView.fullScroll(View.FOCUS_DOWN);
-													}
-												});
+											@Override
+											public void run() {
+												scrollView.fullScroll(View.FOCUS_DOWN);
+											}
+										});
 									}
 								}
 							});
@@ -269,6 +305,22 @@ public class MainActivity extends Activity {
 	protected void onStop() {
 		Log.d(TAG, "Stopped");
 		super.onStop();
+		// ATTENTION: This was auto-generated to implement the App Indexing API.
+		// See https://g.co/AppIndexing/AndroidStudio for more information.
+		Action viewAction = Action.newAction(
+				Action.TYPE_VIEW, // TODO: choose an action type.
+				"Main Page", // TODO: Define a title for the content shown.
+				// TODO: If you have web page content that matches this app activity's content,
+				// make sure this auto-generated web page URL is correct.
+				// Otherwise, set the URL to null.
+				Uri.parse("http://host/path"),
+				// TODO: Make sure this auto-generated app URL is correct.
+				Uri.parse("android-app://com.blueserial/http/host/path")
+		);
+		AppIndex.AppIndexApi.end(client, viewAction);
+		// ATTENTION: This was auto-generated to implement the App Indexing API.
+		// See https://g.co/AppIndexing/AndroidStudio for more information.
+		client.disconnect();
 	}
 
 	@Override

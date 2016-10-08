@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\build\\intermediates\\res\\merged\\debug\\menu\\homescreen.xml",
+        "source": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\src\\main\\res\\menu\\homescreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\build\\intermediates\\res\\merged\\debug\\menu\\helpscreen.xml",
+        "source": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\src\\main\\res\\menu\\helpscreen.xml"
+    }
+]
