@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,438 @@
                     "endOffset": 222
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/arrays.xml",
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 6,
+                        "endColumn": 19,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endLine": 11,
+                    "endColumn": 19,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\arrays.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endLine": 11,
+                        "endColumn": 19,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 57,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 463,
+                    "endColumn": 55,
+                    "endOffset": 514
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 519,
+                    "endColumn": 52,
+                    "endOffset": 567
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 572,
+                    "endColumn": 47,
+                    "endOffset": 615
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 47,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 620,
+                    "endColumn": 52,
+                    "endOffset": 668
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 52,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 673,
+                    "endColumn": 50,
+                    "endOffset": 719
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 50,
+                        "endOffset": 328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 72,
+                    "endOffset": 792
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 72,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 797,
+                    "endColumn": 66,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 533,
+                        "endColumn": 66,
+                        "endOffset": 595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 864,
+                    "endColumn": 63,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 63,
+                        "endOffset": 455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 70,
+                    "endOffset": 994
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 461,
+                        "endColumn": 70,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 999,
+                    "endColumn": 88,
+                    "endOffset": 1083
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1012,
+                        "endColumn": 88,
+                        "endOffset": 1096
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1088,
+                    "endColumn": 79,
+                    "endOffset": 1163
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endColumn": 79,
+                        "endOffset": 1006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1168,
+                    "endColumn": 63,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 866,
+                        "endColumn": 63,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1232,
+                    "endColumn": 74,
+                    "endOffset": 1302
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 732,
+                        "endColumn": 74,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1307,
+                    "endColumn": 55,
+                    "endOffset": 1358
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 55,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1363,
+                    "endColumn": 56,
+                    "endOffset": 1415
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 808,
+                        "endColumn": 56,
+                        "endOffset": 860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1420,
+                    "endColumn": 64,
+                    "endOffset": 1480
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 64,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1485,
+                    "endColumn": 60,
+                    "endOffset": 1541
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 60,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1546,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1832
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1837,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\arrays.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +464,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/arrays.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\arrays.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -53,7 +484,7 @@
                     "endOffset": 458
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/dimens.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -72,7 +503,7 @@
                     "endOffset": 514
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/dimens.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -91,7 +522,7 @@
                     "endOffset": 567
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -110,7 +541,7 @@
                     "endOffset": 615
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -129,7 +560,7 @@
                     "endOffset": 668
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -148,7 +579,7 @@
                     "endOffset": 719
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -167,7 +598,7 @@
                     "endOffset": 792
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -186,7 +617,7 @@
                     "endOffset": 859
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -205,7 +636,7 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -224,7 +655,7 @@
                     "endOffset": 994
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -243,7 +674,7 @@
                     "endOffset": 1083
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -262,7 +693,7 @@
                     "endOffset": 1163
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -281,7 +712,7 @@
                     "endOffset": 1227
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -300,7 +731,7 @@
                     "endOffset": 1302
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -319,7 +750,7 @@
                     "endOffset": 1358
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -338,7 +769,7 @@
                     "endOffset": 1415
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -357,7 +788,7 @@
                     "endOffset": 1480
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -376,7 +807,7 @@
                     "endOffset": 1541
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/strings.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -396,7 +827,7 @@
                     "endOffset": 1832
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/styles.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -417,7 +848,7 @@
                     "endOffset": 1992
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values/styles.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

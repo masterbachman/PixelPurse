@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
 
-import com.blueserial.R;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
@@ -45,8 +43,8 @@ public class MainActivity extends Activity {
 	private TextView mTxtReceive;
 	private EditText mEditSend;
 	private Button mBtnDisconnect;
-	private Button mBtnSend;
-	private Button mBtnClear;
+	private Button mBtnTurnOn;
+	private Button mBtnTurnOff;
 	private Button mBtnClearInput;
 	private ScrollView scrollView;
 	private CheckBox chkScroll;
@@ -73,8 +71,8 @@ public class MainActivity extends Activity {
 		Log.d(TAG, "Ready");
 
 		mBtnDisconnect = (Button) findViewById(R.id.btnDisconnect);
-		mBtnSend = (Button) findViewById(R.id.btnSend);
-		mBtnClear = (Button) findViewById(R.id.btnClear);
+		mBtnTurnOn = (Button) findViewById(R.id.btnSend);
+		mBtnTurnOff = (Button) findViewById(R.id.btnClear);
 		mTxtReceive = (TextView) findViewById(R.id.txtReceive);
 		mEditSend = (EditText) findViewById(R.id.editSend);
 		scrollView = (ScrollView) findViewById(R.id.viewScroll);
@@ -93,12 +91,12 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		mBtnSend.setOnClickListener(new OnClickListener() {
+		mBtnTurnOn.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
 				try {
-					mBTSocket.getOutputStream().write(mEditSend.getText().toString().getBytes());
+					mBTSocket.getOutputStream().write(1);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -106,11 +104,15 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		mBtnClear.setOnClickListener(new OnClickListener() {
+		mBtnTurnOff.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-				mEditSend.setText("");
+				try {
+					mBTSocket.getOutputStream().write(0);
+				} catch (IOException e){
+					e.printStackTrace();
+				}
 			}
 		});
 		

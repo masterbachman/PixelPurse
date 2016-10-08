@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml",
+        "outputFile": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "/Users/masterbachman/Desktop/BlueSerial-master/app/src/main/res/values-v14/styles.xml",
+                    "file": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -20,6 +20,32 @@
                         "endLine": 9,
                         "endColumn": 12,
                         "endOffset": 366
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 375
                     }
                 }
             }

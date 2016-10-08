@@ -1,26 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="8c8231c42dbedf3d2b3ff51dad58de5d63e0ffeb">
-        <dex dex="/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_daedb8818f2d75329bcd93cd2542d3fde4a04e90/classes.dex" />
-    </item>
-    <item
-        jar="/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="686b25408aa5a44c97044d804816532aa953c811">
-        <dex dex="/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a9924abc5568551985c3be6f14a11f0b158e7f7e/classes.dex" />
-    </item>
-    <item
-        jar="/Users/masterbachman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/masterbachman/Desktop/BlueSerial-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_36330b10c99593276d893f488ca52b5c50d4b6ee/classes.dex" />
-    </item>
-
-</items>

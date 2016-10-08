@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:padding="5dp"
-            android:text="Clear" />
+            android:text="Turn Off" />
 
         <Button
             android:id="@+id/btnSend"
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:padding="5dp"
-            android:text="Send" />
+            android:text="Turn On" />
     </LinearLayout>
 
 </LinearLayout> <!-- </RelativeLayout> -->
