@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\back.xml",
-        "source": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\src\\main\\res\\drawable-ldpi\\back.xml"
+        "merged": "/Users/masterbachman/Desktop/PixelPurse/C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\back.xml",
+        "source": "/Users/masterbachman/Desktop/PixelPurse/C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\app\\src\\main\\res\\drawable-ldpi\\back.xml"
+    },
+    {
+        "merged": "/Users/masterbachman/Desktop/PixelPurse/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/back.xml",
+        "source": "/Users/masterbachman/Desktop/PixelPurse/app/src/main/res/drawable-ldpi/back.xml"
     }
 ]
