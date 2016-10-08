@@ -25,12 +25,12 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f0a000e;
-        public static final int btnClear=0x7f0a000b;
+        public static final int allOffButton =0x7f0a000b;
         public static final int btnClearInput=0x7f0a0005;
         public static final int btnConnect=0x7f0a0003;
         public static final int btnDisconnect=0x7f0a0004;
         public static final int btnSearch=0x7f0a0002;
-        public static final int btnSend=0x7f0a000c;
+        public static final int pattern1Button =0x7f0a000c;
         public static final int chkReceiveText=0x7f0a0007;
         public static final int chkScroll=0x7f0a0006;
         public static final int editSend=0x7f0a000a;

@@ -44,7 +44,11 @@ public class MainActivity extends Activity {
 	private TextView mTxtReceive;
 	private EditText mEditSend;
 	private Button mBtnDisconnect;
-	private Button mBtnTurnOn;
+	private Button pattern1Btn;
+	private Button pattern2Btn;
+	private Button pattern3Btn;
+	private Button pattern4Btn;
+	private Button pattern5Btn;
 	private Button mBtnTurnOff;
 	private Button mBtnClearInput;
 	private ScrollView scrollView;
@@ -72,8 +76,14 @@ public class MainActivity extends Activity {
 		Log.d(TAG, "Ready");
 
 		mBtnDisconnect = (Button) findViewById(R.id.btnDisconnect);
-		mBtnTurnOn = (Button) findViewById(R.id.btnSend);
-		mBtnTurnOff = (Button) findViewById(R.id.btnClear);
+		pattern1Btn = (Button) findViewById(R.id.pattern1Button);
+		pattern2Btn = (Button) findViewById((R.id.pattern2Button));
+		pattern3Btn = (Button) findViewById(R.id.pattern3Button);
+		pattern4Btn = (Button) findViewById(R.id.pattern4Button);
+		pattern5Btn = (Button) findViewById(R.id.pattern5Button);
+
+
+		mBtnTurnOff = (Button) findViewById(R.id.allOffButton);
 		mTxtReceive = (TextView) findViewById(R.id.txtReceive);
 		mEditSend = (EditText) findViewById(R.id.editSend);
 		scrollView = (ScrollView) findViewById(R.id.viewScroll);
@@ -91,29 +101,48 @@ public class MainActivity extends Activity {
 				new DisConnectBT().execute();
 			}
 		});
+		public void sendMessage(String s) {
+				try {mBTSocket.getOutputStream().write(s.getBytes());}
+				catch (IOException e){e.printStackTrace();}
 
-		mBtnTurnOn.setOnClickListener(new OnClickListener() {
+		pattern1Btn.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-				try {
-					mBTSocket.getOutputStream().write("1".getBytes());
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+                sendMessage("1");
 			}
 		});
+		pattern2Btn.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+                sendMessage("2");
+            }
+		});
+
+        pattern3Btn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendMessage("3");
+            }
+        });
+        pattern4Btn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendMessage("4");
+            }
+        });
+        pattern4Btn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendMessage("4");
+            }
+        });
 
 		mBtnTurnOff.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
-				try {
-					mBTSocket.getOutputStream().write("0".getBytes());
-				} catch (IOException e){
-					e.printStackTrace();
-				}
+                sendMessage("0");
 			}
 		});
 		

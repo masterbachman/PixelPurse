@@ -15,35 +15,11 @@ int flag = 0;
 CRGB leds[NUM_LEDS];
 
 void setup() { 
-      // Uncomment/edit one of the following lines for your leds arrangement.
-      // FastLED.addLeds<TM1803, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<TM1804, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<TM1809, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<WS2811, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<WS2812, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<WS2812B, DATA_PIN, RGB>(leds, NUM_LEDS);
   	  FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
-      // FastLED.addLeds<APA104, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<UCS1903, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<UCS1903B, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<GW6205, DATA_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<GW6205_400, DATA_PIN, RGB>(leds, NUM_LEDS);
-      
-      // FastLED.addLeds<WS2801, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<SM16716, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<LPD8806, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<P9813, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<APA102, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<DOTSTAR, RGB>(leds, NUM_LEDS);
-
-      // FastLED.addLeds<WS2801, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<SM16716, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<LPD8806, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<P9813, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<APA102, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
-      // FastLED.addLeds<DOTSTAR, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS);
       Serial.begin(9600);
 }
+
+
  void loop() {
  if(Serial.available() > 0){
  state = Serial.read();
@@ -51,29 +27,109 @@ void setup() {
  }  
 
   // Turn the LED on
-//        leds[i] = CRGB::White;
+//   leds[i] = CRGB::White;
   if (state == '1') {
-    leds[0] = CRGB::Red;
-    leds[1] = CRGB::Red;
-    leds[2] = CRGB::Red;
-
-    FastLED.show();
-    if(flag == 0){
-    Serial.println("LED: on");
-    flag = 1;
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      if (i % 5 == 0)
+      {
+        leds[i] = CRGB::CornflowerBlue;
+      }
+      else{leds[i] = CRGB::Orange;}
     }
+
+  FastLED.show();
+  if(flag == 0){
+  Serial.println("PATTERN 1 SELECTED.");
+  flag = 1;
   }
+  }
+
+
+  else if (state == '2') {
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      if (i % 3 == 0)
+      {
+        leds[i] = CRGB::White;
+      }
+      else{leds[i] = CRGB::Red;}
+    }
+
+  FastLED.show();
+  if(flag == 0){
+  Serial.println("PATTERN 2 SELECTED.");
+  flag = 1;
+  }
+  }
+
+  else if (state == '3') {
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      if (i % 2 == 0)
+      {
+        leds[i] = CRGB::ForestGreen;
+      }
+      else{leds[i] = CRGB::Red;}
+    }
+
+  FastLED.show();
+  else if(flag == 0){
+  Serial.println("PATTERN 3 SELECTED.");
+  flag = 1;
+  }
+  }
+
+  else if (state == '4') {
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      if (i % 7 == 0)
+      {
+        leds[i] = CRGB::Aquamarine;
+      }
+      else if(i*2 % 5 == 0){leds[i] = CRGB::SeaGreen;}
+    }
+
+  FastLED.show();
+  if(flag == 0){
+  Serial.println("PATTERN 4 SELECTED.");
+  flag = 1;
+  }
+  }
+
+  else if (state == '5') {
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      if (i % 3 == 0)
+      {
+        leds[i] = CRGB::White;
+      }
+      else{leds[i] = CRGB::CadetBlue;}
+    }
+
+  FastLED.show();
+  if(flag == 0){
+  Serial.println("PATTERN 5 SELECTED.");
+  flag = 1;
+  }
+  }
+
+  
+
+
   
   // Now turn the LED off
   
   else if (state == '0') {
-    leds[0] = CRGB::Black;
-    leds[1] = CRGB::Black;
-    leds[2] = CRGB::Black;
-    FastLED.show();
-    if(flag == 0){
-    Serial.println("LED: off");
-    flag = 1;
+    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
+    {
+      leds[i] = CRGB::Black;
+    }
+    
+  FastLED.show();
+  if(flag == 0){
+  Serial.println("LED: OFF");
+  flag = 1;
   }
   }
  }

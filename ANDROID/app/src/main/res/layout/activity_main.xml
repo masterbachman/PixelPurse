@@ -48,50 +48,53 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ScrollView
-        android:id="@+id/viewScroll"
-        android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" >
-
-        <TextView
-            android:id="@+id/txtReceive"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:background="#eeeeee"
-            android:typeface="monospace"
-            android:hint="Message shows up here ..."
-            android:scrollbars="vertical" />
-    </ScrollView>
-
-    <EditText
-        android:id="@+id/editSend"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter command ..."
-        android:inputType="text" />
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-
         <Button
-            android:id="@+id/btnClear"
-            android:layout_width="0dp"
+            android:id="@+id/allOffButton"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:padding="5dp"
-            android:text="Turn Off" />
-
+            android:text="All Off" />
         <Button
-            android:id="@+id/btnSend"
-            android:layout_width="0dp"
+            android:id="@+id/pattern1Button"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:padding="5dp"
-            android:text="Turn On" />
+            android:text="Pattern 1" />
+        <Button
+            android:id="@+id/pattern2Button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Pattern 2" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/pattern3Button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Pattern 3" />
+        <Button
+            android:id="@+id/pattern4Button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Pattern 4" />
+        <Button
+            android:id="@+id/pattern5Button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Pattern 5" />
+    </LinearLayout>
+
 
 </LinearLayout> <!-- </RelativeLayout> -->
