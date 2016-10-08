@@ -53,35 +53,27 @@ void setup() {
   // Turn the LED on
 //        leds[i] = CRGB::White;
   if (state == '1') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      if (i % 3 == 0)
-      {
-        leds[i] = CRGB::White;
-      }
-      else{leds[i] = CRGB::Red;}
+    leds[0] = CRGB::Red;
+    leds[1] = CRGB::Red;
+    leds[2] = CRGB::Red;
+
+    FastLED.show();
+    if(flag == 0){
+    Serial.println("LED: on");
+    flag = 1;
     }
-
-  FastLED.show();
-  if(flag == 0){
-  Serial.println("LED: on");
-  flag = 1;
   }
-  }
-
   
   // Now turn the LED off
   
   else if (state == '0') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      leds[i] = CRGB::Black;
-    }
-    
-  FastLED.show();
-  if(flag == 0){
-  Serial.println("LED: off");
-  flag = 1;
+    leds[0] = CRGB::Black;
+    leds[1] = CRGB::Black;
+    leds[2] = CRGB::Black;
+    FastLED.show();
+    if(flag == 0){
+    Serial.println("LED: off");
+    flag = 1;
   }
   }
  }

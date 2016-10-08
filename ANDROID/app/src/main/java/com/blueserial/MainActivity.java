@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				try {
-					mBTSocket.getOutputStream().write(test);
+					mBTSocket.getOutputStream().write("1".getBytes());
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
