@@ -8,6 +8,7 @@
 // ground, and power), like the LPD8806 define both DATA_PIN and CLOCK_PIN
 #define DATA_PIN 9
 #define CLOCK_PIN 13
+
 int state = 0;
 int flag = 0; 
 
