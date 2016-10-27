@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.blueserial.test">
+    package="com.PixelPurse.test">
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="22" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.blueserial"
+                     android:targetPackage="com.PixelPurse"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.blueserial"/>
+                     android:label="Tests for com.PixelPurse"/>
 </manifest>

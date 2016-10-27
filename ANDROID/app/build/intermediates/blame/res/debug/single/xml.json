@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\masterbachman\\Desktop\\BlueSerial-master\\app\\src\\main\\res\\xml\\preferences.xml"
-    },
-    {
         "merged": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\src\\main\\res\\xml\\preferences.xml"
     }

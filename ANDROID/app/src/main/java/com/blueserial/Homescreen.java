@@ -6,13 +6,6 @@
 
 package com.blueserial;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import com.blueserial.R;
-
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -24,6 +17,7 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -38,6 +32,11 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.UUID;
 
 public class Homescreen extends Activity {
 
@@ -64,7 +63,6 @@ public class Homescreen extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
 		setContentView(R.layout.activity_homescreen);
 		ActivityHelper.initialize(this); //This is to ensure that the rotation persists across activities and not just this one
 		Log.d(TAG, "Created");
@@ -94,22 +92,17 @@ public class Homescreen extends Activity {
 		} else {
 			initList(new ArrayList<BluetoothDevice>());
 		}
-		
 
-		mBtnSearch.setOnClickListener(new OnClickListener() {
+		mBTAdapter = BluetoothAdapter.getDefaultAdapter();
+        checkForDevices();
+
+
+        mBtnSearch.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
 				mBTAdapter = BluetoothAdapter.getDefaultAdapter();
-
-				if (mBTAdapter == null) {
-					Toast.makeText(getApplicationContext(), "Bluetooth not found", Toast.LENGTH_SHORT).show();
-				} else if (!mBTAdapter.isEnabled()) {
-					Intent enableBT = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-					startActivityForResult(enableBT, BT_ENABLE_REQUEST);
-				} else {
-					new SearchDevices().execute();
-				}
+                checkForDevices();
 			}
 		});
 
@@ -127,7 +120,20 @@ public class Homescreen extends Activity {
 		});
 	}
 
-	/**
+    //Check to see if there are any connected devices
+    public void checkForDevices() {
+        if (mBTAdapter == null) {
+            Toast.makeText(getApplicationContext(),"Bluetooth not found", Toast.LENGTH_SHORT).show();
+
+        } else if (!mBTAdapter.isEnabled()) {
+            Intent enableBT = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBT, BT_ENABLE_REQUEST);
+        } else {
+            new SearchDevices().execute();
+        }
+    }
+
+    /**
 	 * Called when the screen rotates. If this isn't handled, data already generated is no longer available
 	 */
 	@Override
@@ -160,10 +166,10 @@ public class Homescreen extends Activity {
 		switch (requestCode) {
 		case BT_ENABLE_REQUEST:
 			if (resultCode == RESULT_OK) {
-				msg("Bluetooth Enabled successfully");
+				msg("Bluetooth Enabled successfully",this.findViewById(android.R.id.content) );
 				new SearchDevices().execute();
 			} else {
-				msg("Bluetooth couldn't be enabled");
+				msg("Bluetooth couldn't be enabled",this.findViewById(android.R.id.content) );
 			}
 
 			break;
@@ -192,11 +198,11 @@ public class Homescreen extends Activity {
 	}
 
 	/**
-	 * Quick way to call the Toast
+	 * Quick way to call the Snackbar
 	 * @param str
 	 */
-	private void msg(String str) {
-		Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+	private void msg(String str, View view) {
+		Snackbar.make(view, str, Snackbar.LENGTH_SHORT).show();
 	}
 
 	/**
@@ -242,7 +248,7 @@ public class Homescreen extends Activity {
 				MyAdapter adapter = (MyAdapter) mLstDevices.getAdapter();
 				adapter.replaceItems(listDevices);
 			} else {
-				msg("No paired devices found, please pair your serial BT device and try again");
+				msg("No Pixl Labs devices found. Try pairing your device with bluetooth", findViewById(android.R.id.content));
 			}
 		}
 

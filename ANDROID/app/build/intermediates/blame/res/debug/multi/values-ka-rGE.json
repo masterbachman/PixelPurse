@@ -1,14 +1,261 @@
 [
     {
-        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\values-ka-rGE\\values-ka-rGE.xml",
+        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+                    "endColumn": 108,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 108,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 103,
+                    "endOffset": 313
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 103,
+                        "endOffset": 503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 318,
+                    "endColumn": 110,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endColumn": 110,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 429,
+                    "endColumn": 87,
+                    "endOffset": 512
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 87,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 517,
+                    "endColumn": 104,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 707,
+                        "endColumn": 104,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 112,
+                    "endOffset": 730
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 112,
+                        "endOffset": 920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 735,
+                    "endColumn": 112,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 925,
+                        "endColumn": 112,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 106,
+                    "endOffset": 950
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1038,
+                        "endColumn": 106,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 955,
+                    "endColumn": 97,
+                    "endOffset": 1048
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1145,
+                        "endColumn": 97,
+                        "endOffset": 1238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1053,
+                    "endColumn": 112,
+                    "endOffset": 1161
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1243,
+                        "endColumn": 112,
+                        "endOffset": 1351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1166,
+                    "endColumn": 103,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 103,
+                        "endOffset": 1455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1270,
+                    "endColumn": 103,
+                    "endOffset": 1369
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1460,
+                        "endColumn": 103,
+                        "endOffset": 1559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1374,
+                    "endColumn": 121,
+                    "endOffset": 1491
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-ka-rGE\\values-ka-rGE.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1564,
+                        "endColumn": 121,
+                        "endOffset": 1681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1496,
                     "endColumn": 273,
-                    "endOffset": 374
+                    "endOffset": 1765
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -23,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 379,
+                    "startOffset": 1770,
                     "endColumn": 130,
-                    "endOffset": 505
+                    "endOffset": 1896
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -42,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 510,
+                    "startOffset": 1901,
                     "endColumn": 180,
-                    "endOffset": 686
+                    "endOffset": 2077
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -61,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 691,
+                    "startOffset": 2082,
                     "endColumn": 129,
-                    "endOffset": 816
+                    "endOffset": 2207
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -80,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 821,
+                    "startOffset": 2212,
                     "endColumn": 136,
-                    "endOffset": 953
+                    "endOffset": 2344
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -99,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 958,
+                    "startOffset": 2349,
                     "endColumn": 214,
-                    "endOffset": 1168
+                    "endOffset": 2559
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -118,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1173,
+                    "startOffset": 2564,
                     "endColumn": 214,
-                    "endOffset": 1383
+                    "endOffset": 2774
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -137,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1388,
+                    "startOffset": 2779,
                     "endColumn": 135,
-                    "endOffset": 1519
+                    "endOffset": 2910
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -156,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1524,
+                    "startOffset": 2915,
                     "endColumn": 187,
-                    "endOffset": 1707
+                    "endOffset": 3098
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -175,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1712,
+                    "startOffset": 3103,
                     "endColumn": 123,
-                    "endOffset": 1831
+                    "endOffset": 3222
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -194,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1836,
+                    "startOffset": 3227,
                     "endColumn": 172,
-                    "endOffset": 2004
+                    "endOffset": 3395
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -213,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2009,
+                    "startOffset": 3400,
                     "endColumn": 120,
-                    "endOffset": 2125
+                    "endOffset": 3516
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -232,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2130,
+                    "startOffset": 3521,
                     "endColumn": 137,
-                    "endOffset": 2263
+                    "endOffset": 3654
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -251,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2268,
+                    "startOffset": 3659,
                     "endColumn": 171,
-                    "endOffset": 2435
+                    "endOffset": 3826
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -270,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2440,
+                    "startOffset": 3831,
                     "endColumn": 128,
-                    "endOffset": 2564
+                    "endOffset": 3955
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -289,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2569,
+                    "startOffset": 3960,
                     "endColumn": 173,
-                    "endOffset": 2738
+                    "endOffset": 4129
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -308,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2743,
+                    "startOffset": 4134,
                     "endColumn": 126,
-                    "endOffset": 2865
+                    "endOffset": 4256
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -327,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2870,
+                    "startOffset": 4261,
                     "endColumn": 249,
-                    "endOffset": 3115
+                    "endOffset": 4506
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-ka-rGE\\common_strings.xml",
@@ -346,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3120,
+                    "startOffset": 4511,
                     "endColumn": 279,
-                    "endOffset": 3395
+                    "endOffset": 4786
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -365,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3400,
+                    "startOffset": 4791,
                     "endColumn": 123,
-                    "endOffset": 3519
+                    "endOffset": 4910
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -384,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3524,
+                    "startOffset": 4915,
                     "endColumn": 109,
-                    "endOffset": 3629
+                    "endOffset": 5020
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -403,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3634,
+                    "startOffset": 5025,
                     "endColumn": 186,
-                    "endOffset": 3816
+                    "endOffset": 5207
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -422,11 +669,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3821,
+                    "startOffset": 5212,
                     "endColumn": 129,
-                    "endOffset": 3946
+                    "endOffset": 5337
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -441,11 +688,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3951,
+                    "startOffset": 5342,
                     "endColumn": 219,
-                    "endOffset": 4166
+                    "endOffset": 5557
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -460,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4171,
+                    "startOffset": 5562,
                     "endColumn": 135,
-                    "endOffset": 4302
+                    "endOffset": 5693
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -479,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4307,
+                    "startOffset": 5698,
                     "endColumn": 168,
-                    "endOffset": 4471
+                    "endOffset": 5862
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -498,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4476,
+                    "startOffset": 5867,
                     "endColumn": 94,
-                    "endOffset": 4566
+                    "endOffset": 5957
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -517,11 +764,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4571,
+                    "startOffset": 5962,
                     "endColumn": 90,
-                    "endOffset": 4657
+                    "endOffset": 6048
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",
@@ -536,11 +783,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4662,
+                    "startOffset": 6053,
                     "endColumn": 105,
-                    "endOffset": 4763
+                    "endOffset": 6154
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-ka-rGE\\base_strings.xml",

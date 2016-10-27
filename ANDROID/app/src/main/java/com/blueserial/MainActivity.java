@@ -6,18 +6,16 @@
 
 package com.blueserial;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.UUID;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
@@ -29,9 +27,16 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
-    byte test = (byte) 1;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
+import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.UUID;
+
+public class MainActivity extends Activity {
     private static final String TAG = "BlueTest5-MainActivity";
     private int mMaxChars = 50000;//Default
     private UUID mDeviceUUID;
@@ -60,6 +65,11 @@ public class MainActivity extends Activity {
     private BluetoothDevice mDevice;
 
     private ProgressDialog progressDialog;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     public void sendMessage(String s) {
         try {
@@ -91,8 +101,8 @@ public class MainActivity extends Activity {
         pattern5Btn = (Button) findViewById(R.id.pattern5Button);
 
         mBtnTurnOff = (Button) findViewById(R.id.allOffButton);
-	/*	mTxtReceive = (TextView) findViewById(R.id.txtReceive);
-		mEditSend = (EditText) findViewById(R.id.editSend);
+    /*	mTxtReceive = (TextView) findViewById(R.id.txtReceive);
+        mEditSend = (EditText) findViewById(R.id.editSend);
 		scrollView = (ScrollView) findViewById(R.id.viewScroll); */
         chkScroll = (CheckBox) findViewById(R.id.chkScroll);
         chkReceiveText = (CheckBox) findViewById(R.id.chkReceiveText);
@@ -100,25 +110,33 @@ public class MainActivity extends Activity {
 
         mTxtReceive.setMovementMethod(new ScrollingMovementMethod());
 
-        mBtnDisconnect.setOnClickListener(new View.OnClickListener() {
+        mBtnDisconnect.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 mIsUserInitiatedDisconnect = true;
                 new DisConnectBT().execute();
             }
         });
-        pattern1Btn.setOnClickListener(new View.OnClickListener() {
+
+        /* REFERENCE FOR FUTURE ME, IT'S LATE AND I JUST WANNA PUSH MY CHANGES
+
+        * So here's the deal, all this below has to be rewritten. The Presets can stay, but for individual LEDs, it has to be more complex
+        * So each LED has an ID of 00-77 radix 8, once that box is selected, it sends a signal to the O/P stream
+        * The signal is a string, or number depending on what the API we're using can work with
+        * The signal sent is a combination of the ID and the color associated with it for example:
+        * 64255000000 or whatever we choose to go with turns on:
+        * the LED @ Row 6, column 4
+        * with the color rgb 255 000 000 so basically a flat red.
+        * */
+
+        pattern1Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                try {
-                    mBTSocket.getOutputStream().write("1".getBytes());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+               sendMessage("1");
             }
         });
 
-        pattern2Btn.setOnClickListener(new View.OnClickListener() {
+        pattern2Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
                 sendMessage("2");
@@ -126,20 +144,20 @@ public class MainActivity extends Activity {
         });
 
 
-        pattern3Btn.setOnClickListener(new View.OnClickListener() {
+        pattern3Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 sendMessage("3");
             }
         });
-        pattern4Btn.setOnClickListener(new View.OnClickListener() {
+        pattern4Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 sendMessage("4");
             }
         });
 
-        pattern5Btn.setOnClickListener(new View.OnClickListener() {
+        pattern5Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 sendMessage("5");
@@ -147,7 +165,7 @@ public class MainActivity extends Activity {
         });
 
 
-        mBtnTurnOff.setOnClickListener(new View.OnClickListener() {
+        mBtnTurnOff.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
@@ -162,6 +180,35 @@ public class MainActivity extends Activity {
                 mTxtReceive.setText("");
             }
         });
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
+
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("Main Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
 
 
@@ -285,7 +332,7 @@ public class MainActivity extends Activity {
     }
 
     private void msg(String s) {
-        Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -309,7 +356,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onStop() {
         Log.d(TAG, "Stopped");
-        super.onStop();
+        super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
+// See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(client, getIndexApiAction());
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.disconnect();
     }
 
     @Override
@@ -348,7 +400,7 @@ public class MainActivity extends Activity {
             super.onPostExecute(result);
 
             if (!mConnectSuccessful) {
-                Toast.makeText(getApplicationContext(), "Could not connect to device. Is it a Serial device? Also check if the UUID is correct in the settings", Toast.LENGTH_LONG).show();
+                Snackbar.make(findViewById(android.R.id.content), "Could not connect to device. Is it a Serial device? Also check if the UUID is correct in the settings", Snackbar.LENGTH_LONG).show();
                 finish();
             } else {
                 msg("Connected to device");

@@ -1,14 +1,261 @@
 [
     {
-        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\values-sk\\values-sk.xml",
+        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+                    "endColumn": 106,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 106,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 99,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 398,
+                        "endColumn": 99,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 312,
+                    "endColumn": 110,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 110,
+                        "endOffset": 604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 85,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 609,
+                        "endColumn": 85,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 107,
+                    "endOffset": 612
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 107,
+                        "endOffset": 798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 617,
+                    "endColumn": 117,
+                    "endOffset": 730
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 803,
+                        "endColumn": 117,
+                        "endOffset": 916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 735,
+                    "endColumn": 104,
+                    "endOffset": 835
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 921,
+                        "endColumn": 104,
+                        "endOffset": 1021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 840,
+                    "endColumn": 108,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1026,
+                        "endColumn": 108,
+                        "endOffset": 1130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endColumn": 98,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1135,
+                        "endColumn": 98,
+                        "endOffset": 1229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 105,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1234,
+                        "endColumn": 105,
+                        "endOffset": 1335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endColumn": 110,
+                    "endOffset": 1260
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1340,
+                        "endColumn": 110,
+                        "endOffset": 1446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1265,
+                    "endColumn": 108,
+                    "endOffset": 1369
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1451,
+                        "endColumn": 108,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1374,
+                    "endColumn": 123,
+                    "endOffset": 1493
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 123,
+                        "endOffset": 1679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1498,
                     "endColumn": 293,
-                    "endOffset": 394
+                    "endOffset": 1787
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -23,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 399,
+                    "startOffset": 1792,
                     "endColumn": 126,
-                    "endOffset": 521
+                    "endOffset": 1914
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -42,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 526,
+                    "startOffset": 1919,
                     "endColumn": 191,
-                    "endOffset": 713
+                    "endOffset": 2106
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -61,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 718,
+                    "startOffset": 2111,
                     "endColumn": 125,
-                    "endOffset": 839
+                    "endOffset": 2232
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -80,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 844,
+                    "startOffset": 2237,
                     "endColumn": 130,
-                    "endOffset": 970
+                    "endOffset": 2363
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -99,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 975,
+                    "startOffset": 2368,
                     "endColumn": 219,
-                    "endOffset": 1190
+                    "endOffset": 2583
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -118,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1195,
+                    "startOffset": 2588,
                     "endColumn": 219,
-                    "endOffset": 1410
+                    "endOffset": 2803
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -137,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1415,
+                    "startOffset": 2808,
                     "endColumn": 129,
-                    "endOffset": 1540
+                    "endOffset": 2933
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -156,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1545,
+                    "startOffset": 2938,
                     "endColumn": 166,
-                    "endOffset": 1707
+                    "endOffset": 3100
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -175,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1712,
+                    "startOffset": 3105,
                     "endColumn": 118,
-                    "endOffset": 1826
+                    "endOffset": 3219
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -194,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1831,
+                    "startOffset": 3224,
                     "endColumn": 165,
-                    "endOffset": 1992
+                    "endOffset": 3385
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -213,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1997,
+                    "startOffset": 3390,
                     "endColumn": 117,
-                    "endOffset": 2110
+                    "endOffset": 3503
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -232,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2115,
+                    "startOffset": 3508,
                     "endColumn": 131,
-                    "endOffset": 2242
+                    "endOffset": 3635
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -251,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2247,
+                    "startOffset": 3640,
                     "endColumn": 167,
-                    "endOffset": 2410
+                    "endOffset": 3803
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -270,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2415,
+                    "startOffset": 3808,
                     "endColumn": 127,
-                    "endOffset": 2538
+                    "endOffset": 3931
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -289,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2543,
+                    "startOffset": 3936,
                     "endColumn": 173,
-                    "endOffset": 2712
+                    "endOffset": 4105
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -308,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2717,
+                    "startOffset": 4110,
                     "endColumn": 126,
-                    "endOffset": 2839
+                    "endOffset": 4232
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -327,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2844,
+                    "startOffset": 4237,
                     "endColumn": 248,
-                    "endOffset": 3088
+                    "endOffset": 4481
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-sk\\common_strings.xml",
@@ -346,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3093,
+                    "startOffset": 4486,
                     "endColumn": 268,
-                    "endOffset": 3357
+                    "endOffset": 4750
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -365,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3362,
+                    "startOffset": 4755,
                     "endColumn": 121,
-                    "endOffset": 3479
+                    "endOffset": 4872
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -384,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3484,
+                    "startOffset": 4877,
                     "endColumn": 112,
-                    "endOffset": 3592
+                    "endOffset": 4985
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -403,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3597,
+                    "startOffset": 4990,
                     "endColumn": 200,
-                    "endOffset": 3793
+                    "endOffset": 5186
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -422,11 +669,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3798,
+                    "startOffset": 5191,
                     "endColumn": 131,
-                    "endOffset": 3925
+                    "endOffset": 5318
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -441,11 +688,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3930,
+                    "startOffset": 5323,
                     "endColumn": 221,
-                    "endOffset": 4147
+                    "endOffset": 5540
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -460,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4152,
+                    "startOffset": 5545,
                     "endColumn": 134,
-                    "endOffset": 4282
+                    "endOffset": 5675
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -479,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4287,
+                    "startOffset": 5680,
                     "endColumn": 193,
-                    "endOffset": 4476
+                    "endOffset": 5869
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -498,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4481,
+                    "startOffset": 5874,
                     "endColumn": 96,
-                    "endOffset": 4573
+                    "endOffset": 5966
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -517,11 +764,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4578,
+                    "startOffset": 5971,
                     "endColumn": 96,
-                    "endOffset": 4670
+                    "endOffset": 6063
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",
@@ -536,11 +783,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4675,
+                    "startOffset": 6068,
                     "endColumn": 116,
-                    "endOffset": 4787
+                    "endOffset": 6180
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-sk\\base_strings.xml",

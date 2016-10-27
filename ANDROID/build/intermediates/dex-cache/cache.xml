@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_70000d9784cc24afb6aaba94b04a841b702e7d4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_0be1c47e63602b300dec68f832837c6e28ba125d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_f20e78ac040d2a3a142b0440be4d04861cc82a3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_0eb66a3f0d3d192706fd67bbdebb7e4c73281cd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7156b7e79911bb91d20f8266dfde3f997555ce8d">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f3cf38e4b2384dd507b538650eba934276872f86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_1b15152c841d087b7d94ab16bc340af6978880d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_bbc5d5e00e8a3161b7a611f5e406fee2e346e4a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_182d4e4c505bcc3cead3ecc35e34ac29441438c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_d8b0a907f8ae6d3d57971c9fed1260dd8a2d3e68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c361a2789bcaef8abdc9192cdd1a85ebaa763b62">
+        <dex dex="C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5e3eb9c92e7f8560ffd27635c79d90f84e72a4cb\classes.dex" />
+    </item>
+
+</items>

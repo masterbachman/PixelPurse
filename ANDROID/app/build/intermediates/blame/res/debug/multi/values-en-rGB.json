@@ -1,14 +1,261 @@
 [
     {
-        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rGB\\values-en-rGB.xml",
+        "outputFile": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+                    "endColumn": 103,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 103,
+                        "endOffset": 394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 99,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 399,
+                        "endColumn": 99,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 107,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 107,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 417,
+                    "endColumn": 87,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 87,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 99,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 99,
+                        "endOffset": 790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 114,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 795,
+                        "endColumn": 114,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 102,
+                    "endOffset": 818
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 102,
+                        "endOffset": 1008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 823,
+                    "endColumn": 103,
+                    "endOffset": 922
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1013,
+                        "endColumn": 103,
+                        "endOffset": 1112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 927,
+                    "endColumn": 98,
+                    "endOffset": 1021
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1117,
+                        "endColumn": 98,
+                        "endOffset": 1211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1026,
+                    "endColumn": 104,
+                    "endOffset": 1126
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1216,
+                        "endColumn": 104,
+                        "endOffset": 1316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1131,
+                    "endColumn": 102,
+                    "endOffset": 1229
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1321,
+                        "endColumn": 102,
+                        "endOffset": 1419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1234,
+                    "endColumn": 103,
+                    "endOffset": 1333
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1424,
+                        "endColumn": 103,
+                        "endOffset": 1523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1338,
+                    "endColumn": 118,
+                    "endOffset": 1452
+                },
+                "from": {
+                    "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1528,
+                        "endColumn": 118,
+                        "endOffset": 1642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1457,
                     "endColumn": 261,
-                    "endOffset": 362
+                    "endOffset": 1714
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -23,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 367,
+                    "startOffset": 1719,
                     "endColumn": 127,
-                    "endOffset": 490
+                    "endOffset": 1842
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -42,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 495,
+                    "startOffset": 1847,
                     "endColumn": 183,
-                    "endOffset": 674
+                    "endOffset": 2026
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -61,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 679,
+                    "startOffset": 2031,
                     "endColumn": 126,
-                    "endOffset": 801
+                    "endOffset": 2153
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -80,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 806,
+                    "startOffset": 2158,
                     "endColumn": 125,
-                    "endOffset": 927
+                    "endOffset": 2279
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -99,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 932,
+                    "startOffset": 2284,
                     "endColumn": 214,
-                    "endOffset": 1142
+                    "endOffset": 2494
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -118,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1147,
+                    "startOffset": 2499,
                     "endColumn": 216,
-                    "endOffset": 1359
+                    "endOffset": 2711
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -137,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1364,
+                    "startOffset": 2716,
                     "endColumn": 124,
-                    "endOffset": 1484
+                    "endOffset": 2836
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -156,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1489,
+                    "startOffset": 2841,
                     "endColumn": 194,
-                    "endOffset": 1679
+                    "endOffset": 3031
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -175,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1684,
+                    "startOffset": 3036,
                     "endColumn": 120,
-                    "endOffset": 1800
+                    "endOffset": 3152
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -194,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1805,
+                    "startOffset": 3157,
                     "endColumn": 170,
-                    "endOffset": 1971
+                    "endOffset": 3323
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -213,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1976,
+                    "startOffset": 3328,
                     "endColumn": 119,
-                    "endOffset": 2091
+                    "endOffset": 3443
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -232,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2096,
+                    "startOffset": 3448,
                     "endColumn": 132,
-                    "endOffset": 2224
+                    "endOffset": 3576
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -251,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2229,
+                    "startOffset": 3581,
                     "endColumn": 172,
-                    "endOffset": 2397
+                    "endOffset": 3749
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -270,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2402,
+                    "startOffset": 3754,
                     "endColumn": 129,
-                    "endOffset": 2527
+                    "endOffset": 3879
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -289,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2532,
+                    "startOffset": 3884,
                     "endColumn": 181,
-                    "endOffset": 2709
+                    "endOffset": 4061
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -308,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2714,
+                    "startOffset": 4066,
                     "endColumn": 121,
-                    "endOffset": 2831
+                    "endOffset": 4183
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -327,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2836,
+                    "startOffset": 4188,
                     "endColumn": 248,
-                    "endOffset": 3080
+                    "endOffset": 4432
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-en-rGB\\common_strings.xml",
@@ -346,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3085,
+                    "startOffset": 4437,
                     "endColumn": 248,
-                    "endOffset": 3329
+                    "endOffset": 4681
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -365,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3334,
+                    "startOffset": 4686,
                     "endColumn": 123,
-                    "endOffset": 3453
+                    "endOffset": 4805
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -384,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3458,
+                    "startOffset": 4810,
                     "endColumn": 106,
-                    "endOffset": 3560
+                    "endOffset": 4912
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -403,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3565,
+                    "startOffset": 4917,
                     "endColumn": 182,
-                    "endOffset": 3743
+                    "endOffset": 5095
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -422,11 +669,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3748,
+                    "startOffset": 5100,
                     "endColumn": 126,
-                    "endOffset": 3870
+                    "endOffset": 5222
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -441,11 +688,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3875,
+                    "startOffset": 5227,
                     "endColumn": 204,
-                    "endOffset": 4075
+                    "endOffset": 5427
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -460,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4080,
+                    "startOffset": 5432,
                     "endColumn": 134,
-                    "endOffset": 4210
+                    "endOffset": 5562
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -479,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4215,
+                    "startOffset": 5567,
                     "endColumn": 177,
-                    "endOffset": 4388
+                    "endOffset": 5740
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -498,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4393,
+                    "startOffset": 5745,
                     "endColumn": 91,
-                    "endOffset": 4480
+                    "endOffset": 5832
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -517,11 +764,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4485,
+                    "startOffset": 5837,
                     "endColumn": 91,
-                    "endOffset": 4572
+                    "endOffset": 5924
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",
@@ -536,11 +783,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4577,
+                    "startOffset": 5929,
                     "endColumn": 108,
-                    "endOffset": 4681
+                    "endOffset": 6033
                 },
                 "from": {
                     "file": "C:\\Users\\Matt\\Documents\\GitHub\\PixelPurse\\ANDROID\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-en-rGB\\base_strings.xml",

@@ -9,7 +9,7 @@
         android:id="@+id/txtListHeading"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Paired devices appear below"
+        android:text="Select Your device"
         android:textSize="20sp"
         android:gravity="center"
         />
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_weight="2"
-            android:text="Search for paired devices" />
+            android:text="Refresh" />
 
         <Button
             android:id="@+id/btnConnect"

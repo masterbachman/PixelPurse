@@ -59,12 +59,14 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="All Off" />
+
         <Button
             android:id="@+id/pattern1Button"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="Pattern 1" />
+
         <Button
             android:id="@+id/pattern2Button"
             android:layout_width="120dp"
@@ -95,6 +97,83 @@
             android:padding="5dp"
             android:text="Pattern 5" />
     </LinearLayout>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="8"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:id="@+id/PurseGrid"
+        >
+        <!-- Row 1!-->
+        <CheckBox
+            android:id="@+id/Led00"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led01"
+            android:padding="6px"
+        />
+        <CheckBox
+            android:id="@+id/Led02"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led03"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led04"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led05"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led06"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led07"
+            android:padding="6px"
+            />
+
+        <!-- Row 2!-->
+        <CheckBox
+            android:id="@+id/Led10"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led11"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led12"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led13"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led14"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led15"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led16"
+            android:padding="6px"
+            />
+        <CheckBox
+            android:id="@+id/Led17"
+            android:padding="6px"
+            />
+    </GridLayout>
 
 
 </LinearLayout> <!-- </RelativeLayout> -->

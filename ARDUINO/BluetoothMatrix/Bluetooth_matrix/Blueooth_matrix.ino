@@ -19,25 +19,39 @@ void setup() {
   	  FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
       Serial.begin(9600);
 }
-
+void clearLeds(){
+  for (int i = 0; i < 64; ++i)
+  {
+    leds[i] = CRGB::Black;
+  }
+}
+void drawHeart(){
+  clearLeds();
+  leds[1] = leds[2] = leds[5] = leds[59] = leds[60] = leds[6] = CRGB:Red;
+  for (int i = 8; i < 40; ++i)
+  {
+    leds[i] = CRGB::Red;
+  }
+  for (int i = 41; i < 47; ++i)
+  {
+    leds[i] = CRGB::Red;
+  }
+  for (int i = 50; i < 55; ++i)
+  {
+    leds[i] = CRGB::Red;
+  }
+}
 
  void loop() {
  if(Serial.available() > 0){
- state = Serial.read();
- flag=0;
+   state = Serial.read();
+   flag=0;
  }  
 
   // Turn the LED on
 //   leds[i] = CRGB::White;
   if (state == '1') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      if (i % 5 == 0)
-      {
-        leds[i] = CRGB::CornflowerBlue;
-      }
-      else{leds[i] = CRGB::Orange;}
-    }
+    drawHeart();
 
   FastLED.show();
   if(flag == 0){

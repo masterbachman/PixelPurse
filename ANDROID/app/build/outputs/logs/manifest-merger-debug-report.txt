@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml
@@ -25,6 +25,12 @@ ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\Androi
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:8:22-71
 uses-sdk
 ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:10:5-12:41
+MERGED from [com.android.support:design:22.2.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
 	android:targetSdkVersion
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:12:9-38
 		INJECTED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml
@@ -34,13 +40,18 @@ ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\Androi
 		INJECTED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:14:5-39:19
+ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:14:5-43:19
+MERGED from [com.android.support:design:22.2.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
 	android:label
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:17:9-41
 	android:allowBackup
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:16:9-38
+		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:16:9-43
 	android:theme
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:19:9-40
 	android:name
@@ -79,3 +90,10 @@ activity#com.blueserial.PreferencesActivity
 ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:38:9-65
 	android:name
 		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:38:19-53
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:40:9-42:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from C:\Users\Matt\Documents\GitHub\PixelPurse\ANDROID\app\src\main\AndroidManifest.xml:41:13-58
