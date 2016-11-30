@@ -16,7 +16,6 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
-import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -79,6 +78,11 @@ public class MainActivity extends Activity {
         }
     }
 
+
+    void setOnClickForCHeckBoxes(){
+
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,8 +112,6 @@ public class MainActivity extends Activity {
         chkReceiveText = (CheckBox) findViewById(R.id.chkReceiveText);
         mBtnClearInput = (Button) findViewById(R.id.btnClearInput);
 
-        mTxtReceive.setMovementMethod(new ScrollingMovementMethod());
-
         mBtnDisconnect.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,9 +119,8 @@ public class MainActivity extends Activity {
                 new DisConnectBT().execute();
             }
         });
-
-        /* REFERENCE FOR FUTURE ME, IT'S LATE AND I JUST WANNA PUSH MY CHANGES
-
+        sendMessage("BEGIN");
+        /* TODO REFERENCE FOR FUTURE ME, IT'S LATE AND I JUST WANNA PUSH MY CHANGES
         * So here's the deal, all this below has to be rewritten. The Presets can stay, but for individual LEDs, it has to be more complex
         * So each LED has an ID of 00-77 radix 8, once that box is selected, it sends a signal to the O/P stream
         * The signal is a string, or number depending on what the API we're using can work with
@@ -129,10 +130,11 @@ public class MainActivity extends Activity {
         * with the color rgb 255 000 000 so basically a flat red.
         * */
 
+
         pattern1Btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-               sendMessage("1");
+                sendMessage("1");
             }
         });
 
@@ -164,7 +166,6 @@ public class MainActivity extends Activity {
             }
         });
 
-
         mBtnTurnOff.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -180,11 +181,13 @@ public class MainActivity extends Activity {
                 mTxtReceive.setText("");
             }
         });
+
+
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-    }
 
+    }
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -247,8 +250,8 @@ public class MainActivity extends Activity {
 						/*
 						 * If checked then receive text, better design would probably be to stop thread if unchecked and free resources, but this is a quick fix
 						 */
-
-                        if (chkReceiveText.isChecked()) {
+                        //TODO: Make some semblance of sanity from this crazy mess called code
+                      /*  if (chkReceiveText.isChecked()) {
                             mTxtReceive.post(new Runnable() {
                                 @Override
                                 public void run() {
@@ -272,7 +275,7 @@ public class MainActivity extends Activity {
                                     }
                                 }
                             });
-                        }
+                        }*/
 
                     }
                     Thread.sleep(500);

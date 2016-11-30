@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -65,15 +66,16 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Pattern 1" />
+            android:text="Love!!" />
 
         <Button
             android:id="@+id/pattern2Button"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Pattern 2" />
+            android:text="Preset 2" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -83,97 +85,441 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Pattern 3" />
+            android:text="Merry Merry!" />
         <Button
             android:id="@+id/pattern4Button"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Pattern 4" />
+            android:text="Preset 4" />
         <Button
             android:id="@+id/pattern5Button"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Pattern 5" />
+            android:text="Preset 5" />
     </LinearLayout>
 
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <TextView
+        android:text="Tap to Turn on LEDS --- Not functional yet \n This is purely aesthetic"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textView2" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:numColumns="8"
-        android:verticalSpacing="10dp"
+        android:verticalSpacing="20px"
         android:horizontalSpacing="10dp"
-        android:id="@+id/PurseGrid"
-        >
+        android:stretchMode="spacingWidthUniform"
+        android:gravity="center_horizontal"
+        android:id="@+id/PurseGrid">
+        <!-- Row 0!-->
+
         <!-- Row 1!-->
+
+        <!-- Row 2  !-->
+
+        <!-- Row 3  !-->
+
+        <!-- Row 4!-->
+
+        <!-- Row 5!-->
+
+        <!-- Row 6  !-->
+
+        <!-- Row 7  !-->
+
+
         <CheckBox
             android:id="@+id/Led00"
             android:padding="6px"
+            android:layout_column="0"
+            android:layout_row="0"
             />
+
         <CheckBox
             android:id="@+id/Led01"
             android:padding="6px"
+            android:layout_column="1"
+            android:layout_row="0"
         />
+
         <CheckBox
             android:id="@+id/Led02"
             android:padding="6px"
             />
+
         <CheckBox
             android:id="@+id/Led03"
             android:padding="6px"
             />
+
         <CheckBox
             android:id="@+id/Led04"
             android:padding="6px"
             />
+
         <CheckBox
             android:id="@+id/Led05"
             android:padding="6px"
             />
+
         <CheckBox
             android:id="@+id/Led06"
             android:padding="6px"
             />
+
         <CheckBox
             android:id="@+id/Led07"
             android:padding="6px"
             />
 
-        <!-- Row 2!-->
         <CheckBox
             android:id="@+id/Led10"
             android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="0" />
+
         <CheckBox
             android:id="@+id/Led11"
             android:padding="6px"
-            />
-        <CheckBox
-            android:id="@+id/Led12"
-            android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="1" />
+
         <CheckBox
             android:id="@+id/Led13"
             android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="2" />
+
         <CheckBox
             android:id="@+id/Led14"
             android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="3" />
+
         <CheckBox
             android:id="@+id/Led15"
             android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="4" />
+
         <CheckBox
             android:id="@+id/Led16"
             android:padding="6px"
-            />
+            android:layout_row="1"
+            android:layout_column="5" />
+
         <CheckBox
             android:id="@+id/Led17"
             android:padding="6px"
-            />
-    </GridLayout>
+            android:layout_row="1"
+            android:layout_column="6" />
 
+        <CheckBox
+            android:id="@+id/Led12"
+            android:padding="6px"
+            android:layout_row="1"
+            android:layout_column="7" />
+
+        <CheckBox
+            android:id="@+id/Led20"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:id="@+id/Led21"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/Led22"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <CheckBox
+            android:id="@+id/Led23"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="3" />
+
+        <CheckBox
+            android:id="@+id/Led24"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="4" />
+
+        <CheckBox
+            android:id="@+id/Led25"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="5" />
+
+        <CheckBox
+            android:id="@+id/Led26"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="6" />
+
+        <CheckBox
+            android:id="@+id/Led27"
+            android:padding="6px"
+            android:layout_row="2"
+            android:layout_column="7" />
+
+        <CheckBox
+            android:id="@+id/Led30"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:id="@+id/Led31"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/Led32"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+        <CheckBox
+            android:id="@+id/Led33"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="3" />
+
+        <CheckBox
+            android:id="@+id/Led34"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="4" />
+
+        <CheckBox
+            android:id="@+id/Led35"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="5" />
+
+        <CheckBox
+            android:id="@+id/Led36"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="6" />
+
+        <CheckBox
+            android:id="@+id/Led37"
+            android:padding="6px"
+            android:layout_row="3"
+            android:layout_column="7" />
+
+        <CheckBox
+            android:id="@+id/Led40"
+            android:padding="6px"
+            android:layout_column="0"
+            android:layout_row="4"
+            />
+
+        <CheckBox
+            android:id="@+id/Led41"
+            android:padding="6px"
+            android:layout_column="1"
+            android:layout_row="4"
+            />
+
+        <CheckBox
+            android:id="@+id/Led42"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="2"
+            />
+
+        <CheckBox
+            android:id="@+id/Led43"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="3"
+            />
+
+        <CheckBox
+            android:id="@+id/Led44"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="4"
+            />
+
+        <CheckBox
+            android:id="@+id/Led45"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="5"
+            />
+
+        <CheckBox
+            android:id="@+id/Led46"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="6"
+            />
+
+        <CheckBox
+            android:id="@+id/Led47"
+            android:padding="6px"
+            android:layout_row="4"
+            android:layout_column="7"
+            />
+
+        <CheckBox
+            android:id="@+id/Led50"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:id="@+id/Led51"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/Led53"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="2" />
+
+        <CheckBox
+            android:id="@+id/Led54"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="3" />
+
+        <CheckBox
+            android:id="@+id/Led55"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="4" />
+
+        <CheckBox
+            android:id="@+id/Led56"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="5" />
+
+        <CheckBox
+            android:id="@+id/Led57"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="6" />
+
+        <CheckBox
+            android:id="@+id/Led52"
+            android:padding="6px"
+            android:layout_row="5"
+            android:layout_column="7" />
+
+        <CheckBox
+            android:id="@+id/Led60"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:id="@+id/Led61"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/Led62"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="2" />
+
+        <CheckBox
+            android:id="@+id/Led63"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="3" />
+
+        <CheckBox
+            android:id="@+id/Led64"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="4" />
+
+        <CheckBox
+            android:id="@+id/Led65"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="5" />
+
+        <CheckBox
+            android:id="@+id/Led66"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="6" />
+
+        <CheckBox
+            android:id="@+id/Led67"
+            android:padding="6px"
+            android:layout_row="6"
+            android:layout_column="7" />
+
+        <CheckBox
+            android:id="@+id/Led70"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="0" />
+
+        <CheckBox
+            android:id="@+id/Led71"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="1" />
+
+        <CheckBox
+            android:id="@+id/Led72"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="2" />
+
+        <CheckBox
+            android:id="@+id/Led73"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="3" />
+
+        <CheckBox
+            android:id="@+id/Led74"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="4" />
+
+        <CheckBox
+            android:id="@+id/Led75"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="5" />
+
+        <CheckBox
+            android:id="@+id/Led76"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="6" />
+
+        <CheckBox
+            android:id="@+id/Led77"
+            android:padding="6px"
+            android:layout_row="7"
+            android:layout_column="7" />
+    </GridLayout>
 
 </LinearLayout> <!-- </RelativeLayout> -->

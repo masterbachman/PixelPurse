@@ -10,12 +10,12 @@
 #define CLOCK_PIN 13
 
 int state = 0;
-int flag = 0; 
+int flag = 0;
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
 
-void setup() { 
+void setup() {
   	  FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
       Serial.begin(9600);
 }
@@ -25,6 +25,7 @@ void clearLeds(){
     leds[i] = CRGB::Black;
   }
 }
+
 void drawHeart(){
   clearLeds();
   leds[1] = leds[2] = leds[5] = leds[59] = leds[60] = leds[6] = CRGB:Red;
@@ -42,26 +43,24 @@ void drawHeart(){
   }
 }
 
- void loop() {
+void loop() {
  if(Serial.available() > 0){
    state = Serial.read();
    flag=0;
- }  
-
-  // Turn the LED on
+ }
 //   leds[i] = CRGB::White;
   if (state == '1') {
     drawHeart();
-
-  FastLED.show();
-  if(flag == 0){
-  Serial.println("PATTERN 1 SELECTED.");
-  flag = 1;
-  }
+    FastLED.show();
+    if(flag == 0){
+      Serial.println("PATTERN 1 SELECTED.");
+      flag = 1;
+    }
   }
 
 
   else if (state == '2') {
+    clearLeds();
     for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
     {
       if (i % 3 == 0)
@@ -79,6 +78,7 @@ void drawHeart(){
   }
 
   else if (state == '3') {
+    clearLeds();
     for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
     {
       if (i % 2 == 0)
@@ -96,23 +96,16 @@ void drawHeart(){
   }
 
   else if (state == '4') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      if (i % 7 == 0)
-      {
-        leds[i] = CRGB::Aquamarine;
-      }
-      else if(i*2 % 5 == 0){leds[i] = CRGB::SeaGreen;}
+    clearLeds();
+    FastLED.show();
+    if(flag == 0){
+    Serial.println("PATTERN 4 SELECTED.");
+    flag = 1;
     }
-
-  FastLED.show();
-  if(flag == 0){
-  Serial.println("PATTERN 4 SELECTED.");
-  flag = 1;
-  }
   }
 
   else if (state == '5') {
+    clearLeds();
     for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
     {
       if (i % 3 == 0)
@@ -129,22 +122,33 @@ void drawHeart(){
   }
   }
 
-  
-
-
-  
-  // Now turn the LED off
-  
-  else if (state == '0') {
-    for (int i = 0; i < sizeof(leds)/sizeof(leds[0]); ++i)
-    {
-      leds[i] = CRGB::Black;
+  else if (state == 'BEGIN') {
+    clearLeds();
+    for (int i = 0; i < NUM_LEDS; i++) {
+      leds[i] = CRGB::Green;
     }
-    
-  FastLED.show();
-  if(flag == 0){
-  Serial.println("LED: OFF");
-  flag = 1;
+    FastLED.show();
+    delay(100);
+    clearLeds();
+    FastLED.show();
+    delay(100);
+    for (int i = 0; i < NUM_LEDS; i++) {
+      leds[i] = CRGB::Green;
+    }
+    FastLED.show();
+    if(flag == 0){
+    Serial.println("LED: OFF");
+    flag = 1;
+    }
   }
+
+  else if (state == '0') {
+    clearLeds();
+    FastLED.show();
+    if(flag == 0){
+    Serial.println("LED: OFF");
+    flag = 1;
+    }
   }
+
  }

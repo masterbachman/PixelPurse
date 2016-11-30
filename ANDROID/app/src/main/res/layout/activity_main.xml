@@ -66,7 +66,7 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Preset 1" />
+            android:text="Love!!" />
 
         <Button
             android:id="@+id/pattern2Button"
@@ -85,7 +85,7 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Preset 3" />
+            android:text="Merry Merry!" />
         <Button
             android:id="@+id/pattern4Button"
             android:layout_width="120dp"
@@ -131,6 +131,8 @@
         <!-- Row 6  !-->
 
         <!-- Row 7  !-->
+
+
         <CheckBox
             android:id="@+id/Led00"
             android:padding="6px"
@@ -519,6 +521,5 @@
             android:layout_row="7"
             android:layout_column="7" />
     </GridLayout>
-
 
 </LinearLayout> <!-- </RelativeLayout> -->
